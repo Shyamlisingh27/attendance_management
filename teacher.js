@@ -43,17 +43,12 @@ function displayFun(teacherDataArr) {
         var td6 = document.createElement("td");
         var btn = document.createElement("button");
         btn.innerHTML = "Delete";
-        /*var btn1 = document.createElement("button");
-        btn1.innerHTML = "P";
-        btn1.addEventListener("click", function () {
-            td6.innerHTML = "<button >Present</button>";
-        });
-        var btn2 = document.createElement("button");
-        btn2.innerHTML = "A";
-        btn2.addEventListener("click", function () {
-            td6.innerHTML = "<button id='absent'>Absent</button>";
+        /*
         
+        btn.addEventListener("click", function () {
+            
         });*/
+        
         td6.classList.add("td6");
         td6.append(btn);
 

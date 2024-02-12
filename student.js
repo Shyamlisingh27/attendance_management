@@ -52,13 +52,13 @@ function displayFun(studentDataArr) {
         var td7 = document.createElement("td");
         var btn = document.createElement("button");
         btn.innerHTML = "Delete";
-        //btn.addEventListener("click", del());
-        /*var btn2 = document.createElement("button");
-        btn2.innerHTML = "A";
-        btn2.addEventListener("click", function () {
-            td6.innerHTML = "<button id='absent'>Absent</button>";
         
+         /*
+        
+        btn.addEventListener("click", function () {
+            
         });*/
+        
         td7.classList.add("td7");
         td7.append(btn);
 
