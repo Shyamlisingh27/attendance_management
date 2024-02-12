@@ -9,6 +9,7 @@
 </head>
 <body>
     <!-- Sidebar -->
+    
     <div id="sidebar">
         <div class="sidebar-header">
           <h3>Mark Attendance</h3>
@@ -17,7 +18,9 @@
             <li class="active">
                 <a href="dashboard.html">Dashboard</a>
             </li>
+            <br/>
             <h5>Management</h5>
+            <br/>
             <hr/>
             <br/>
           <li>
@@ -29,14 +32,59 @@
           <li>
             <a href="#attendance" id="attendance-link">Attendance</a>
           </li>
-          <li>
-            <a href="#logout">Logout</a>
-          </li>
+          
         </ul>
       </div>
     <!-- Dashboard -->
-  
- 
+    <section class="dashboard">
+      <div class="page">
+        <div class="header-area">
+          <div class="logo-area"><h1 class="logo">Attendance App</h1></div>
+          <div class="logout-area"><button class="logout">Logout</button></div>
+        </div>
+        <div class="section-area">
+          <div class="label-area"><label>Section</label></div>
+          <div class="dropdown-area">
+            <select class="ddlclass">
+              <option></option>
+              <option>Section A</option>
+              <option>Section B</option>
+            </select>
+          </div>
+        </div>
+        <div class="classlist-area">
+          <div class="classcard">DBMS</div>
+          <div class="classcard">AIML</div>
+          
+        </div>
+        <div class="classdetails-area">
+          <div class="classdetails">
+            <div class="code-area">CS054</div>
+            <div class="title-area">Database management system</div>
+            <div class="ondate-area"><input type="date"></div>
+            
+          </div>
+        </div>
+        <div class="studentlist-area">
+
+          <table id="attab">
+            <thead>
+                
+                <tr id="atdata">
+                    <th id="sn">Si.No</th>
+                    <th id="nm">Name</th>
+                    <th id="roll">USN</th>
+                    <th id="sect">Section</th>
+                    <th id="att">Attendance</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+        </div>
+      </div>
+    </section>
    <script src="dashboard.js"></script>
 </body>
 </html>
